@@ -140,8 +140,10 @@ Update `requirements.txt`:
 pip freeze > requirements.txt
 ```
 
+## Linting with pylint
 
+Check code format with pylint:
 
-
-
-
+```bash
+pylint
+```
