@@ -1,3 +1,7 @@
+
+https://nibmehub.com/opac-service/pdf/read/Data%20Structures%20and%20Algorithms%20in%20Python.pdf
+
+
 1. Data Structures (Foundation)
 Start with core data structures because many algorithms depend on them.
 Basic

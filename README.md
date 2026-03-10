@@ -61,6 +61,11 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+```bash
+pip install -e .
+pip install pytest
+```
+
 Update dependencies
 
 ```bash
