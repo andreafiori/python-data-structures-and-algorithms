@@ -150,5 +150,9 @@ pip freeze > requirements.txt
 Check code format with pylint:
 
 ```bash
-pylint
+pylint src
 ```
+
+## TODO
+
+* Benchmark tests

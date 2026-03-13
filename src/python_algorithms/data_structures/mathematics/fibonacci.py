@@ -10,9 +10,7 @@ class Fibonacci:
         """Recursive implementation (O(2^n) time, O(n) space)"""
         if n == 0:
             return 0
-        elif n == 1:
-            return 1
-        return self.fibonacci_recursive(n-1) + self.fibonacci_recursive(n-2)
+        return 1 if n==1 else self.fibonacci_recursive(n-1) + self.fibonacci_recursive(n-2)
 
     def fibonacci_iterative(self, n):
         """Iterative implementation (O(n) time, O(1) space)"""
