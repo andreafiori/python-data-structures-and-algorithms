@@ -43,10 +43,10 @@ class ArrayDuplicates:
         Since looking up in a dictionary is O(1) time, overall complexity would be O(n)
         """
         dictionary = {}
-        if len(array)<2:
+        if len(array) < 2:
             return False
 
-        for el in enumerate(array):
+        for _, el in enumerate(array):
             if el in dictionary:
                 return True
             dictionary[el] = True

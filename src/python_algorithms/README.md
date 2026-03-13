@@ -1,15 +1,20 @@
 
-https://nibmehub.com/opac-service/pdf/read/Data%20Structures%20and%20Algorithms%20in%20Python.pdf
-
+* [LIBRO DATA STRUCTURE ALGO](https://nibmehub.com/opac-service/pdf/read/Data%20Structures%20and%20Algorithms%20in%20Python.pdf):
+* [Refactoring guru](https://refactoring.guru/)
+* [Python for everybody](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
+* [Python for everybody ITA](https://do1.dr-chuck.com/pythonlearn/IT_it/pythonlearn.pdf) | https://github.com/vittore/py4e
 
 1. Data Structures (Foundation)
+
 Start with core data structures because many algorithms depend on them.
+
 Basic
     • Arrays / Lists
     • Strings
     • Hash Tables (Python dict internally)
     • Stack
     • Queue
+
 Example algorithms:
     • Valid parentheses
     • Palindrome check
@@ -142,3 +147,5 @@ Examples:
     • XOR tricks
     • Single number problem
     • Subsets using bitmask
+
+
