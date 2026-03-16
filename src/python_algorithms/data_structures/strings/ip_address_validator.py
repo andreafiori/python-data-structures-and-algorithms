@@ -1,5 +1,8 @@
 """
 Ip address validator implementation in Python.
+It works for both IPv4 and IPv6 formats.
+IP4 address example: 128.0.0.1 See: https//wikipedia.org/wiki/IPv4
+IP6 address example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334 See: https//wikipedia.org/wiki/IPv6
 """
 class IpAddressValidator:
     """ Class to validate IP addresses with different formats. """
@@ -25,7 +28,4 @@ class IpAddressValidator:
     def validate_ip_address(self, ip: str) -> str:
         if self.is_valid_ipv4(ip):
             return "IPv4"
-        elif self.is_valid_ipv6(ip):
-            return "IPv6"
-        else:
-            return "Neither"
+        return "IPv6" if self.is_valid_ipv6(ip) else "Neither"

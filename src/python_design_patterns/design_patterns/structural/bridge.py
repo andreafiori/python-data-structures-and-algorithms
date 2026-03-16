@@ -38,6 +38,7 @@ class Shape:
         self.renderer = renderer
 
     def draw(self) -> str:
+        """ Draw the shape using the renderer. This method should be implemented by concrete shapes. """
         raise NotImplementedError
 
 class Circle(Shape):
