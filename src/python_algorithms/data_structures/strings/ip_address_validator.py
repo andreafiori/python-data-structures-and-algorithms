@@ -2,6 +2,7 @@
 Ip address validator implementation in Python.
 """
 class IpAddressValidator:
+    """ Class to validate IP addresses with different formats. """
 
     def is_valid_ipv4(self, ip: str) -> bool:
         parts = ip.split('.')
