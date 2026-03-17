@@ -41,7 +41,9 @@ class Shape:
         """ Draw the shape using the renderer. This method should be implemented by concrete shapes. """
         raise NotImplementedError
 
+""" Concrete shapes that use the renderer to draw themselves. """
 class Circle(Shape):
+    """ Circle shape that uses the renderer to draw itself. """
     def __init__(self, renderer: Renderer, radius: float):
         super().__init__(renderer)
         self.radius = radius
@@ -49,7 +51,10 @@ class Circle(Shape):
     def draw(self) -> str:
         return self.renderer.render_circle(self.radius)
 
+""" Square shape that uses the renderer to draw itself. """
 class Square(Shape):
+    """ Square shape that uses the renderer to draw itself. """
+
     def __init__(self, renderer: Renderer, side: float):
         super().__init__(renderer)
         self.side = side

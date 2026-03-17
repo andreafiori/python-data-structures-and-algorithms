@@ -149,4 +149,4 @@ Examples:
     • Subsets using bitmask
 
 PROMPT design patterns
-Can you create a professional example of the <pattern_name> design pattern and an implementation in python that includes unit test? I use pytest
+Can you create a professional example of the <pattern_name> design pattern and an implementation in python that includes unit test? Create tests usiing pytest and a class
